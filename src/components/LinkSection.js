@@ -1,8 +1,9 @@
 import React from "react";
+import "./App.css";
 
 const firstLink = {
 	href: "https://training.zuri.team/",
-	id: "btn_zuri",
+	id: "btn__zuri",
 };
 const secondLink = {
 	title: "The best place to find  books about design and coding",
@@ -12,7 +13,7 @@ const secondLink = {
 const thirdLink = {
 	title: "The best book to help start your journey in Python",
 	href: "https://books.zuri.team/python-for-beginners?ref_id=joshh",
-	id: "book_python",
+	id: "book__python",
 };
 const fourthLink = {
 	title: "Get to know more about our coders",
@@ -22,12 +23,16 @@ const fourthLink = {
 const lastLink = {
 	title: "Free design book made available by Zuri ",
 	href: "https://books.zuri.team/design-rules",
-	id: "book_design",
+	id: "book__design",
+};
+const contactLink = {
+	id: "contact",
+	href: "",
 };
 
 const LinkSection = () => {
 	return (
-		<div className="container">
+		<div className="containers">
 			<div className="link">
 				<a href={firstLink.href} id={firstLink.id}>
 					Twitter Link
@@ -43,6 +48,9 @@ const LinkSection = () => {
 				</a>
 				<a title={lastLink.title} href={lastLink.href} id={lastLink.id}>
 					Background Checks for Codes
+				</a>
+				<a href={contactLink.href} id={contactLink.id}>
+					Contact Me
 				</a>
 			</div>
 		</div>
