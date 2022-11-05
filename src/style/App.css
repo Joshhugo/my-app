@@ -9,6 +9,14 @@
 	width: 75%;
 	margin: 0 auto;
 }
+.form-container {
+	width: 50%;
+	margin: 50px auto;
+}
+
+input[type="checkbox"] {
+	margin-right: 8px;
+}
 
 .link {
 	display: flex;
@@ -59,6 +67,9 @@
 	display: none;
 }
 
+.text {
+	margin: 10px 0;
+}
 .top-footer {
 	display: flex;
 	justify-content: center;
@@ -78,11 +89,11 @@
 
 .end-footer {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	border-top: 1px solid #eaecf0;
 	margin: 0 auto;
-	width: 75%;
+	width: 80%;
 }
 
 @media only screen and (max-width: 750px) {
@@ -99,11 +110,16 @@
 	.good {
 		height: 40px;
 	}
+	.form-container {
+		width: 75%;
+		margin: 50px auto;
+	}
 
 	.containers {
 		width: 95%;
 		margin: 0 auto;
 	}
+
 	.space {
 		padding: 20px 0;
 	}

@@ -1,17 +1,12 @@
 import React from "react";
-import "./App.css";
-import slack from "./images/slack.png";
-import icon from "./images/Icon.png";
-import vector from "./images/Vector.png";
-import good from "./images/good.png";
+import "../style/App.css";
+
+import vector from "../images/Vector.png";
+import good from "../images/good.png";
 
 const Footer = () => {
 	return (
 		<div>
-			<div className="top-footer">
-				<img src={slack} alt="Logo" className="slack" />
-				<img src={icon} alt="Github" />
-			</div>
 			<div className="end-footer">
 				<img src={vector} alt="" className="vector" />
 				<div className="space">HNG Internship 9 Frontend Task </div>
