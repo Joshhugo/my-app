@@ -4,7 +4,6 @@ import "./style/App.css";
 import ProfileSection from "./pages/ProfileSection";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
-import Basic from "./pages/Basic";
 
 function App() {
 	return (
